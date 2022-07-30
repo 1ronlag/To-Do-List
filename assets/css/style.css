@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.logo{
+    width: 300px;
+    position: absolute;
+    top: 15%;
+    right: 42%
+    }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+hr {
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+}
+
+.top-box {
+  width: 100%;
+}
+
+.top-box h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.add-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addInput {
+  width: 70%;
+}
+
+button {
+  background-color: #7EC89F;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: #FEFCFD;
+  font-size: 15px;
+}
+
+.bottom-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.count-box {
+  padding-right: 20px;
+}
+
+.count-box h3 {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.count-box span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+.task-list {
+  width: 50%;
+  margin-top: 13px;
+}
+
+
+thead {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.first-column {
+  padding-right: 20px;
+}
+
+.second-column {
+  text-align: inherit;
+}
+
+.tasks {
+  width: 100%;
+  font-size: 15px;
+}
+
+.name {
+  padding-right: 15px;
+}
+
+.delete {
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 7px;
+  color: #FEFCFD;
+  font-size: 15px;
+}
+
+.checkbox {
+  width: 19px;
+  height: 19px;
+}
